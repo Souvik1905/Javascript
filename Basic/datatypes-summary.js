@@ -33,8 +33,35 @@ console.log(objId);
 
 
 const func = function() {
+
 console.log("Hello World!");
 
 }
+
  
 console.log(typeof name2);  // *****typeof helps in finding the datatype of the Variable*****
+
+
+
+//Stack(primitive) and Heap(Non primitive)
+
+// Example of Stack
+let NameOne ="Souvik";
+
+let NameTwo = NameOne;
+NameTwo="Rohan";
+
+console.log(NameOne)
+console.log(NameTwo)
+
+//Example of Heap
+
+let place ={
+  
+    City:"Dibrugarh"
+ 
+
+}
+place.City="Moran"
+
+console.log(place)// In heap memory we get the refernce value  of the Variable any changes to the value reflects on the Original Value too.
